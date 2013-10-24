@@ -1,0 +1,751 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,700);
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: #fff; 
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+/* ==========================================================================
+MENU
+   ========================================================================== */
+
+.activo{
+        background: url(../img/menu_activo.png) repeat;
+}
+
+/* ==========================================================================
+  Perfil
+   ========================================================================== */
+
+.contenedor_principal{
+    background-color: #ecf0f1;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.portada{
+    width: 100%;
+    height: 530px;
+  }
+
+.portada_imagen{
+    background: url(../img/m12.jpg);
+    background-size: cover;
+    height: 530px;
+}
+
+.back_boton{
+    position: absolute;
+    top: 358px;
+    right: 350px;
+    z-index: 3000;
+}
+
+.back_boton img{
+    width: 34px;
+    height: 27px;
+}
+.info{
+    width: 100%;
+    height: 170px;
+    background-color: rgba(28, 59, 87, 0.5);
+    position: relative;
+    top: -170px;
+
+}
+
+.avatar{border: 2px solid rgba(199,201,201,0.6);; }
+.avatar,.avatar- img{
+width: 150px;
+height: 150px;
+-webkit-border-radius: 180px; /* Saf3+, Chrome */
+border-radius: 180px; /* Opera 10.5, IE 9 */
+/*-moz-border-radius: 30px; Disabled for FF1+ */
+}
+
+.imagen_perfil {
+    float: left;
+    max-width: 15.008557%;
+    margin: -34px 0 0 8.189655%;
+}
+
+.usuario_perfil {
+    float: left;
+    width: auto;
+    text-align: left;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #fff;
+    clear: both;
+    margin: 10px 0 0 8%;
+    font-size: 1.3em;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+}
+
+.diamante_oficial{
+   position: relative;
+   top: 124px;
+   left: 25px;
+}
+.diamante_oficial img{
+    width: 18px;
+    height: 10px;
+}
+.bio {
+    float: left;
+    width: 32.932936%;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    margin: -100px 0 0 2%;
+    font-size: 1em;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+}
+
+.hashtag {
+    float: left;
+    height: 30px;
+    width: 45.964123%;
+    background: url(../img/hash_bg.png),url(../img/hash_bg2.png) ;
+    background-repeat: no-repeat, repeat;
+    margin: 20px 0 0 12.425583%;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.hash_cat{
+    color: #fff;
+    position: relative;
+    top: 5px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 0.9em;
+
+}
+
+.hash_cat_primero{
+    color: #fff;
+    position: relative;
+    top: 8px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 0.9em;
+   float: right;
+
+}
+
+.flecha{
+   position: relative;
+   top: -25px;
+   right: -240px;
+   z-index: 30000;
+}
+
+.flecha img{
+    width: 16px;
+    height: 16px;
+}
+.follow_contenedor{
+    position: relative;
+    top: 7px;
+}
+.follow{
+    float: right;
+    position:relative;
+    top:-160px;
+    height: 40px;
+    width: 25%;
+    background: url(../img/hash_bg2.png) repeat;
+    margin: 0 12.60199% 0 0;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    -webkit-box-shadow: 1px 10px 30px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow:    1px 10px 30px rgba(50, 50, 50, 0.25);
+    box-shadow:         1px 10px 30px rgba(50, 50, 50, 0.25);
+    }
+
+.boton_follow{
+    float: right;
+    position:relative;
+    top:-116px;
+    right: -95px;
+    height: 22px;
+    width: 9%;
+    background: rgba(47,220,87,0.8);
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.9em; 
+    color: #fff;
+    padding-top: 2px;
+    -webkit-box-shadow: 1px 10px 30px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow:    1px 10px 30px rgba(50, 50, 50, 0.25);
+    box-shadow:         1px 10px 30px rgba(50, 50, 50, 0.25);
+    border-right: solid 1px #6d7878;
+    border-left: solid 1px #6d7878;
+    border-bottom: solid 1px #6d7878;
+    border-top: solid 1px #6d7878;
+    }
+
+.follow_texto{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    color: #fff;
+    display: block;
+}
+
+.follow_numero{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    top: 4px;
+}
+
+.fotos{
+    position: relative;
+    top: -210px;
+    width: 99.5%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+}
+
+/* ==========================================================================
+  Share
+   ========================================================================== */
+
+   .share{
+    width: 70%;
+    margin-left: 15%;
+    margin-right:15%;
+    background: #ccc;
+    
+   }
+
+   .estructura1{
+    display: inline-block;
+    width: 100%;
+    padding-top: 100px;
+}
+
+   .foto_usuario_share {
+        float: left;
+        height: 60px;
+        margin: 28px 0 0 17.634935%;
+        max-width: 9.26226%;
+        width: 60px;
+}
+
+    .nombre_usuario_share {
+    float: left;
+font: 1em;
+left: 0;
+line-height: 1em;
+margin: 35px 0 0 1.19962%;
+max-height: 13.675214%;
+max-width: 11.837655%;
+position: relative;
+text-align: left;
+top: 0;
+word-wrap: break-word;
+   
+}
+
+    .usuario_share {
+  
+}
+
+
+    .comentario_usuario_share {
+   
+}
+
+
+
+.foto_usuario_share{border: 2px solid rgba(199,201,201,0.6);; }
+.foto_usuario_share,.foto_usuario_share- img{
+width: 60px;
+height: 60px;
+-webkit-border-radius: 60px; /* Saf3+, Chrome */
+border-radius: 60px; /* Opera 10.5, IE 9 */
+/*-moz-border-radius: 30px; Disabled for FF1+ */
+}
+
+
+/*MENU PRINCIPAL FIJO */
+
+.menu_pagina{
+    width: 100%;
+    height:35px;
+    background: url(../img/fondo_menu.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+}
+
+#box {
+    float: left;
+    height: 35px;
+    width: 25.732632%;
+    
+}
+
+#box2 {
+    height: 35px;
+    width: 25.600465%;
+    margin: 0 auto;
+    
+}
+
+.logo_mp{
+    text-align: center;
+}
+
+.logo_mp img{
+    width: 120px;
+}
+
+#box3 {
+    float: right;
+    height: 35px;
+    width: 25.600465%;
+    margin: -35px 0 0;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+#search_menu{
+    padding-top: 6px;
+}
+#box3 input{
+    
+    background-image: url(../img/lupa.png) ;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 95% center;
+    border:0; 
+    font-size:0.8em; 
+    text-align: left;
+    padding-left:5px; 
+    font-family: 'Open Sans', sans-serif;
+    color:#efefef; 
+    border:solid 1px #ccc; 
+    margin:0 0 20px; 
+    width:85%;
+    height: 20px;
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px;
+    -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2); 
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2); 
+    box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5); 
+    -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5); 
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+    float: left;
+}
+
+.settings{
+    width: 40px;
+    height: 35px;
+    margin-top: 0px;
+    padding: 0;
+    float: right;
+    text-align: center;
+
+
+}
+
+.settings img{
+    width: 21px;
+    padding-top: 0px;
+}
+
+
+
+.btn {
+
+  height: 35px;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 2px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+
+
+}
+
+.icono_menu{
+    width: 20px;
+    padding-right: 5px;
+    margin-top: -7px;
+}
+
+/* ==========================================================================
+  Foto Abierta
+   ========================================================================== */
+
+.contenedor_pantallas{
+    margin: 35px auto;
+    padding: 0;
+    width: 750px;
+    height:auto;
+    padding-bottom: 50px;
+    background-color: #ecf0f1;
+    overflow: hidden;
+}
+
+.contenedor_foto_abierta{
+    width: 100%;
+}
+
+.info_usuario_foto{
+    display: inline-block;
+    margin-left: 170px;
+    margin-top: 35px;
+}
+
+.pp_usuario_foto{
+    display: inline-block;
+}
+
+.usuario_foto{
+    display: inline-block;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #34495e;
+    position: relative;
+    top: 20px;
+
+}
+
+.avatar_foto{border: 2px solid rgba(199,201,201,0.6);; }
+.avatar_foto,.avatar_foto- img{
+width: 60px;
+height: 60px;
+-webkit-border-radius: 180px; /* Saf3+, Chrome */
+border-radius: 180px; /* Opera 10.5, IE 9 */
+/*-moz-border-radius: 30px; Disabled for FF1+ */
+}
+
+.contenedor_foto{
+    margin-top: 25px;
+   
+}
+
+.contenedor_foto img{
+    width: 100%;
+    height: auto;
+    border-top:1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+}
+
+.reloj{
+padding-left: 15px;
+padding-top: 120px;
+}
+
+.reloj img{
+    width: 23px;
+}
+
+.relleno{
+    width: 100%;
+    height: 30px;
+
+
+}
+.comentarios_foto{
+    background-color: #fff;
+    width: 100%;
+    height:auto;
+    display: inline-block;
+    border:1px solid #ccc;
+}
+
+.comentario_usuario{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 3px;
+    border: 1px solid #ccc;
+}
+
+.icono_comentario{
+    display: inline-block;
+    float: left;
+    width: 30px;
+    padding-left: 5px;
+    margin-top: 0px;
+}
+
+.icono_comentario img{
+    width: 24px;
+    height: 18px;
+}
+
+.comentario_usuario_texto{
+   display: inline-block; 
+   border-right:1px solid #ccc;
+   width: 400px;
+   font-size: 14px;
+   text-align: center;
+   font-weight: bold;
+   color: #3d4146;
+}
+
+.botones_foto{
+    display: inline-block;
+    
+}
+
+.like_boton{
+    position: relative;
+    top: 3px;
+    left: 10px;
+
+}
+
+.like_boton img{
+    width: 42px;
+}
+
+.share_boton{
+    position: relative;
+    top: 3px;
+    left: 10px;
+ 
+}
+
+.share_boton img{
+    width: 42px;
+}
+
+.comentario_externo{
+    background-color: #f9f9f9; 
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.pp_usuario_externo{
+    display: inline-block;
+    width: 45px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.avatar_comentario{border: 2px solid rgba(199,201,201,0.6);; }
+.avatar_comentario,.avatar_comentario img{
+width: 40px;
+height: 40px;
+-webkit-border-radius: 180px; /* Saf3+, Chrome */
+border-radius: 180px; /* Opera 10.5, IE 9 */
+/*-moz-border-radius: 30px; Disabled for FF1+ externo_comentario*/
+}
+.comentario_externo_texto{
+    display: inline-block;
+    float: right;
+    width: 500px;
+    padding:5px;
+   font-size: 14px;
+   color: #3d4146;
+}
+
+.comentario_externo_texto p{
+    margin-top: -3px;
+}
+
+.celeste{
+    background-color: #f9f9f9; !important
+}
+
+.nombre_usuario_externo{
+    font-family: "Montserrat Alternates";
+    font-weight: bold;
+    font-size: 14px;
+    color: #34495e;
+}

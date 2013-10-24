@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Log in</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+         <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/log_in.css">
+        <link rel="stylesheet" href="css/fijo.css">
+        <link rel="stylesheet" href="css/columnas.css">
+       
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="logo animated rotateIn"><img src="img/logo_circle.png"></div> <!-- Contenedor del Logo -->
+
+        <div class="p3"><!-- Contenedor Principal dividido en 3 columnas-->
+            <div class="one">
+               <div class="relleno"></div>
+            </div>
+            <div class="two">
+                <div class="celular animated rotateIn"> <img src="img/celular.png"></div>
+            </div>
+            <div class="three animated fadeIn">
+                <section class="formulario_entrar">
+                    <div class="formulario_botones_top"> <!-- Contiene Boton de Login y slogan -->
+                        <div class="p4">
+                            <div class="one">
+                                Log in
+                            </div>
+                            <div class="two-four">
+                               Este es el slogan de la app.
+                            </div>
+                        </div>
+                    </div><!-- termina formulario_botones_top -->
+                    <div class="descripcion_app">
+                        <p>Combining modern design, intuitive interface, clever gesture controls with a retro camera, Starmatic app crafts a new visual and social sharing experience by putting picture and user experience quality center stage.</p>
+                    </div>
+                </section>
+            </div>
+        </div><!-- termina contenedor principal -->
+
+        <div class="menu_footer"> Hola</div>
+     
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/main.js"></script>
+        <!-- Comienza script de slide de fotos de background -->
+            <script type="text/javascript">
+                 $.vegas('slideshow', {
+                      delay:5000,
+                      backgrounds:[
+                        { src:'img/v1.jpg', fade:900000 },
+                        { src:'img/v2.jpg', fade:900000 },
+                        { src:'img/v3.jpg', fade:900000 }
+                      ]
+                    })('overlay');
+
+            </script>
+    </body>
+</html>
