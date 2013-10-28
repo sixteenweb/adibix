@@ -1,0 +1,596 @@
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+
+body {
+    width:100%;
+    min-height:100%;
+    margin:0 auto;
+    background-color:#cccccc;
+    font-size: 16px; 
+    -webkit-text-size-adjust: none;
+    color: #fff;
+}
+
+
+/* ---------------------------HEADER menu-------------------------------- */ 
+
+#menu{
+    display: inline-block;
+    background: url(../img/logo_circle.png) no-repeat center;
+    background-size: 47px 43px;
+    width: 100%;
+    height: 48px;
+   
+}
+
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline-block;
+   
+}
+
+.part1{
+    
+    height: 3.0em;
+    color:#9bc50b;
+    float: left;
+    margin-left: 0px;
+
+}
+
+.part2{
+   
+    height: 3.0em;
+    color:#9bc50b;
+  
+}
+
+.not{
+    position: absolute;
+    left: 3.50%;
+    top: 16px;
+}
+
+
+.home{
+    position: absolute;
+    left:18.5%;
+    top: 16px;
+}
+
+.search{
+    position: absolute;
+  right:18.5%;
+    top: 16px;
+}
+
+.camera{
+    position: absolute;
+    right: 3.50%;
+    top: 16px;
+}
+
+
+
+/* ------------------------------------termina estilos menu del header------------------------------------ */ 
+
+
+/*-------------------------------ESTILOS GENERALES------------------------------------ */
+
+.main_container{
+    background: #f4f4f4;
+    width: 94%;
+    margin-right: 3%;
+    margin-left: 3%;
+    height: auto;
+}
+
+/* ------------------------------------termina estilos generales------------------------------------ */ 
+
+
+
+/*-------------------------------ESTILOS NOTIFICACIONES------------------------------------ */
+
+.not_container{
+    background: #f8f8f8;
+    width: 94%;
+    margin-right: 3%;
+    margin-left: 3%;
+    height: 65em;
+}
+
+
+.comment{
+    
+    position: relative;
+    top: 7%;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+.separator_not{
+    background: #14eaed;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    height:1px;
+    position: relative;
+    top: 5%;
+}
+
+.pp_notification{
+    height: 5em
+}
+.pp_notification img{
+    width: 60px;
+    height: 60px;
+     
+}
+
+.pp_name{
+    color: #7b7c7f;
+    height: 5em;
+    font-size: 1.2em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    padding-top: 0.9em;
+    padding-left: 0.3em;
+
+}
+
+.icon_notification{
+    padding-top: 8em;
+}
+
+.comment_text{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #7b7c7f;
+    text-align: center;
+    position: relative;
+    top: -1em;
+}
+
+.img_container{
+    background: #e7e7e7;
+    -webkit-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    0px 1px 6px rgba(0, 0, 0, 0.75);
+    box-shadow:         0px 1px 6px rgba(0, 0, 0, 0.75);
+    width: 80%;
+    height: auto;
+    margin-top: -2em;
+    margin-right: 10%;
+    margin-left: 10%;
+    position: relative;
+    top: 2em;
+}
+
+.img_container img{
+    width: 90%;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-top:5%;
+    margin-bottom:5%;
+    height: auto;
+
+   
+}
+
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.center{
+    text-align: center;
+}
+
+/*---------------------------------------terminan estilos generales------------------------------------*/
+
+
+/* ----------------------------------PROFILE CONTAINER---------------------------------- */ 
+
+#profile_container{
+    width: 100%;
+    background: url(../img/pp_bg.jpg);
+    background-size: cover;
+    height: 60%;
+}
+
+#info_profile{
+    
+    width: 60%;
+    background: rgba(255,255,255,0.4);
+    margin-right: 20%;
+    margin-left: 20%;
+    height: auto;
+
+}
+
+
+
+#profile_picture{
+    background-image: url("../img/pp.png"); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 87px 87px;
+    width: 100%;
+    padding-top: 7em;
+}
+
+
+#info_profile2{
+   
+    width: 100%;
+}
+
+.wrapper {
+    position: relative;
+    top: -1.8em;
+    width: 100%;
+    height: 26px;
+    background: #ebebeb;
+    border-top: 2px solid #cdcdc8;
+    -webkit-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow:    0px 2px 20px rgba(0, 0, 0, 0.30);
+    box-shadow:         0px 2px 20px rgba(0, 0, 0, 0.30);
+    position: relative;
+    margin-bottom: 30px;
+    overflow:auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+ 
+ul.menu {
+    height: 26px;
+    float:left;
+}
+ 
+ul.menu li {
+    list-style: none;
+    float:left;
+    height: 26px;
+    text-align: center;
+    
+    }
+ 
+ul li a {
+    color: #9d9d9d;
+    display: block;
+    padding: 0 12px;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+    text-decoration: none;
+    line-height: 26px;
+    font-size: 0.8em;
+    font-weight: bold;
+
+    
+    }
+
+#hash{
+    position: relative;
+    top: -0.8em;
+    left: 0;
+    z-index: 3000;
+    width: 15%;
+    color: #000;
+
+}
+ 
+.ho{
+    color:#2c292a;
+}
+.name_user{
+    position: relative;
+    top: -2.5em;
+    text-align: center;
+    font-size: 0.7em;
+    color: #1f1f1f;
+}
+
+.follow2{
+    position: relative;
+    top: -2.6em;
+    text-align: center;
+    color: #00e7eb;
+}
+
+.follow2 p{
+   position: relative;
+   font-size: 0.8em;
+   top: 0.8em; 
+}
+
+.bio2{
+    position: relative;
+    top:-2.5em;
+    color: #484747;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+
+
+/* ------------------------------------Helper Clases------------------------------------ */ 
+
+.center {
+
+  text-align: center;
+}
+
+/* ------------------------------------Terminan clases de ayuda------------------------------------ */ 
+
+
+
+
+/* ------------------------------------TAKE A PICUTRE------------------------------------ */ 
+
+
+#main_tp{
+    background: #241f21;
+    width: 94%;
+    margin-right: 3%;
+    margin-left: 3%;
+    height: auto;
+}
+
+#menu_bottom{
+    background: #fff;
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    position: fixed;
+    bottom: 0:;
+}
+
+.take_picture{
+    background: #e7e7e7;
+    width: 84%;
+    margin-right: 8%;
+    margin-left: 8%;
+    position: relative;
+    top: 3em;
+    height: 390px;
+    z-index: 1;
+}
+
+
+
+/* ------------------------------------Terminan take a picture styles ------------------------------------ */ 
+
+
+/* ------------------------------------ Images Grid ------------------------------------ */ 
+
+#grid{
+    width: 100%;
+    position: relative;
+    top: -3.4em;
+   
+}
+
+.top{
+
+    position: relative;
+    top: 2.6em;
+}
+
+
+/* ------------------------------------ Registrer Style ------------------------------------ */ 
+
+#main_registrer{
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+#logo_registrer{
+    background: url("../img/logo.png") no-repeat center;
+    background-size: auto;
+    height: auto;
+    position: relative;
+    top: -6em;
+}
+
+/** The wrapper that will contain our two forms **/
+
+.form-login {
+    right: 0px;
+    margin: 0px auto;   
+    margin-right: 7.5%;
+    margin-left:7.5%;
+    width: 85%;
+}
+/* header */
+.header {
+    height:60px;
+    background: #efefef;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:#b8b8b8;
+}
+.header span{
+    padding-top:20px;
+    float:left;
+    text-align:center;
+    width:278px;
+}
+.link-head-left {
+    display:block;
+    float:left;
+    height:60px;
+    width:60px;
+    border-right:1px solid #ffffff;
+}
+.link-head-right {
+    display:block;
+    float:right;
+    height:60px;
+    width:60px;
+    border-left:1px solid #ffffff;
+}
+.icon-home {
+    background: url(../images/icon-home.png) no-repeat;
+    width:16px;
+    height:16px;
+    display:block;
+    margin:20px auto;
+}
+.icon-config {
+    background: url(../images/icon-config.png) no-repeat;
+    width:16px;
+    height:16px;
+    display:block;
+    margin:20px auto;
+}
+/* avatar */
+.avatar {
+    text-align:center;
+}
+.avatar img{
+    width:90px;
+    height:90px;
+    border:15px solid #efefef;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+}
+/* inputs */
+.inputs {
+    margin-top:10px;
+}
+
+
+.inputs input[type="text"],.inputs[type="text-area"], .inputs [type="password"], .inputs [type="email"] {
+    width:80%;
+    height:45px;
+    background:#efefef;
+    color:#b8b8b8;
+    font-size:16px;
+    margin-top:15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:0;
+    margin-left:10%;
+    margin-right:10%;
+    padding:0px 10px;
+}
+
+textarea#styled {
+    width:80%;
+    height:75px;
+    background:#efefef;
+    color:#b8b8b8;
+    font-size:16px;
+    margin-top:15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:0;
+    margin-left:10%;
+    margin-right:10%;
+    padding:10px 10px;
+}
+
+
+
+/* info box */
+.link-1 {
+    margin-top:15px;
+    margin-left:20px;
+    float:left;
+    color:#b8b8b8;
+}
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label {
+    font-size:13px;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:22px;
+    height:22px;
+    vertical-align:middle;
+    background:url(../images/check_radio_sheet.png) -1px top no-repeat;
+    background-position:-0px 0px; 
+    cursor:pointer;
+}
+input[type="checkbox"]:checked + label span {
+    background:url(../images/check_radio_sheet.png) -23px top no-repeat;
+}
+.link-2 {
+    float:right;
+    margin-top:15px;
+    margin-right:20px;
+}
+.link-2 a, .link-2 a:hover {
+    color:#b8b8b8;
+}
+.link-2 a:hover {
+    text-decoration:none;
+}
+
+/* send button */
+.button-login input[type="submit"] {
+    width:50%;
+    height:55px;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-top:25px;
+    margin-top: 20px;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    border:0;
+    box-shadow:
+        inset 0 1px #ba3c30,
+        inset 1px 0 #ba3c30,
+        inset -1px 0 #ba3c30,
+        inset 0 -1px #ba3c30,
+        0 2px #ba3c30,
+        0 3px #ba3c30,
+        0 4px 2px rgba(0,0,0,0.0)
+    ;
+    background: #e84c3d;
+}
+.button-login input[type="submit"]:hover { opacity:0.9; }
+.button-login input[type="submit"]:active {
+    top: 3px;
+    background: #e84c3d;
+    box-shadow: inset 0 1px 2px #ba3c30;
+}
+
+.space{
+    width: 100%;
+    height: 1em;
+}

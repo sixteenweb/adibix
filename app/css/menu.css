@@ -1,0 +1,259 @@
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+body{
+
+}
+
+/*---MENU PRINCIPAL */
+.menu{
+    display: inline-block;
+    background: url(../img/logo_circle.png) no-repeat;
+    background-position: center center;
+    background-color: #34495e;
+    background-size: 47px 43px;
+    width: 100%;
+    height: 50px;
+   
+}
+
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+   
+}
+
+.part1{
+    
+    height: 3.0em;
+    color:#9bc50b;
+    float: left;
+    margin-left: 0px;
+
+}
+
+.part2{
+   
+    height: 3.0em;
+    color:#9bc50b;
+  
+}
+
+.not{
+    position: absolute;
+    left: 3.50%;
+    top: 16px;
+}
+
+
+.home{
+    position: absolute;
+    left:18.5%;
+    top: 16px;
+    border-bottom: solid 2px #1bbc9d;
+}
+
+.search{
+    position: absolute;
+    right:18.5%;
+    top: 16px;
+}
+
+.camera{
+    position: absolute;
+    right: 3.50%;
+    top: 16px;
+
+}
+
+/*---MENU 1 */
+
+.menu1{
+    background: url(../img/logo_circle.png) no-repeat;
+    background-position: center center;
+    background-color: #96a6a6;
+    background-size: 47px 43px;
+    width: 100%;
+    height: 50px;
+
+}
+
+.not2{
+    float: left;
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
+.camera2{
+    float: right;
+    margin-right: 10px;
+    margin-top: 16px;
+}
+
+/*---MENU 2 */
+
+.menu2{
+    background: url(../img/logo_circle.png) no-repeat;
+    background-position: center center;
+    background-color: #1bbc9d;
+    background-size: 47px 43px;
+    width: 100%;
+    height: 50px;
+
+}
+
+.not3{
+    float: left;
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
+
+/*---MENU 3 */
+
+.menu3{
+    background: url(../img/logo_circle.png) no-repeat;
+    background-position: center center;
+    background-color: #131515;
+    background-size: 47px 43px;
+    width: 100%;
+    height: 50px;
+
+}
+
+.lines{
+    float: left;
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
+.settings{
+    float: right;
+    margin-right: 10px;
+    margin-top: 16px;
+}
+
+
+.separador{
+    background: #1bbc9d;
+    width: 100%;
+    height: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*---COMENTARIOS */
+
+
+.comentario{
+    background-color: #ecf0f1;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-bottom: solid 1px #ccc;
+}
+
+.foto_perfil_comentario{
+    float: right;
+    padding-right: 10px;
+}
+
+.avatar-frame{border: 3px solid #808b8d; }
+.avatar-frame,.avatar-frame img{
+width: 50px;
+height: 50px;
+-webkit-border-radius: 60px; /* Saf3+, Chrome */
+border-radius: 60px; /* Opera 10.5, IE 9 */
+/*-moz-border-radius: 30px; Disabled for FF1+ */
+}
+
+.usuario{
+    color:#2d3e50;
+    font-size: 18px;
+    font-family: "Abel";
+    font-weight: bold;
+}
+
+.texto_comentario{
+    margin-top: -15px;
+    width: 100%;
+    font-size: 14px;
+    color: #808b8d;
+
+}
+
+/*---COMENTARIOS2 */
+
+.comentario2{
+    background-color: #ecf0f1;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-bottom: solid 1px #ccc;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.foto_perfil_comentario2{
+    float: left;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.avatar-frame{border: 3px solid #808b8d; }
+.avatar-frame,.avatar-frame img{
+width: 50px;
+height: 50px;
+-webkit-border-radius: 60px; /* Saf3+, Chrome */
+border-radius: 60px; /* Opera 10.5, IE 9 */
+/*-moz-border-radius: 30px; Disabled for FF1+ */
+}
+
+.usuario2{
+    color:#2d3e50;
+    font-size: 18px;
+    font-family: "Abel";
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.texto_comentario2{
+    margin-top: -15px;
+    width: 100%;
+    font-size: 14px;
+    color: #808b8d;
+    padding-left: 10px;
+
+}
+
+/*---COMENTARIOS3 */
+
+.comentario3{
+    background-color: #ecf0f1;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-bottom: solid 1px #ccc;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    margin-left: 10px;
+}
+
+.usuario3{
+    color:#2d3e50;
+    font-size: 18px;
+    font-family: "Abel";
+    font-weight: bold;
+
+}
+
+.texto_comentario3{
+    color: #808b8d;
+    font-size: 14px;
+
+}

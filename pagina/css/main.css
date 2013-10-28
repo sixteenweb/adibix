@@ -435,7 +435,7 @@ border-radius: 60px; /* Opera 10.5, IE 9 */
 .menu_pagina{
     width: 100%;
     height:35px;
-    background: url(../img/fondo_menu.jpg);
+    background-color: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -467,42 +467,20 @@ border-radius: 60px; /* Opera 10.5, IE 9 */
 #box3 {
     float: right;
     height: 35px;
-    width: 25.600465%;
+    width: 39%;
     margin: -35px 0 0;
     display: inline-block;
     vertical-align: top;
     
 }
+
 #search_menu{
     padding-top: 6px;
+    display: inline-block;
+    float: right;
+    width: 100%;
 }
-#box3 input{
-    
-    background-image: url(../img/lupa.png) ;
-    background-repeat: no-repeat;
-    background-size: 15px;
-    background-position: 95% center;
-    border:0; 
-    font-size:0.8em; 
-    text-align: left;
-    padding-left:5px; 
-    font-family: 'Open Sans', sans-serif;
-    color:#efefef; 
-    border:solid 1px #ccc; 
-    margin:0 0 20px; 
-    width:85%;
-    height: 20px;
-    -webkit-border-radius: 3px; 
-    -moz-border-radius: 3px; 
-    border-radius: 3px;
-    -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2); 
-    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2); 
-    box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5); 
-    -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5); 
-    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
-    float: left;
-}
+
 
 .settings{
     width: 40px;
@@ -534,21 +512,24 @@ border-radius: 60px; /* Opera 10.5, IE 9 */
 }
 
 .btn a{
+    margin: 0;
+    padding: 0;
+    height: 33px;
     text-decoration: none;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: 100;
+    font-size: 15px;
 }
 
 .btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  background: #161a22;
   text-decoration: none;
+  cursor: pointer;
+  height: 35px;
+  transition-property: background;
+  transition-duration: 0.7s;
+  transition-timing-function: linear;
 
 
 }
@@ -748,4 +729,74 @@ border-radius: 180px; /* Opera 10.5, IE 9 */
     font-weight: bold;
     font-size: 14px;
     color: #34495e;
+}
+
+.formStyle { 
+  background-color: #d7dde6;
+  background-image: url(..img/lupa.png); 
+  padding-left: 10px;
+  padding-top: 0;
+  margin-top: -8px; 
+  width: 100%; 
+  height: 32px;
+  font-family: "Roboto";
+  border-style: none;
+  font-size: 0.8em;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.formButton {
+  float: right;
+    background-color:#ffffff;
+    display:inline-block;
+    color:#2ecc71;
+    font-size:28px;
+    font-weight: 500;
+    padding:6px 24px;
+  margin-top: 15px;
+  margin-right: 60px;
+    text-decoration:none;
+}
+
+.formButton:hover {
+    background-color: #27ae60;
+  color:#ffffff;
+}
+
+.formButton:active {
+    position:relative;
+    top:3px;
+}
+
+/*To remove the outline that appears on clicking the input textbox*/
+input:focus {
+  outline: none;
+}
+
+/* To format the placeholder text color */
+::-webkit-input-placeholder {
+   color: #ecf0f1;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #ecf0f1;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ecf0f1;  
+}
+
+:-ms-input-placeholder {  
+   color: #ecf0f1;  
+}
+
+.menu_secundario{
+    position: fixed;
+    width: 100%;
+    background-color: #161a22;
+    height: 30px;
+    top: 35px;
+    left: 0;
+
 }

@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,700);
+
+/*MENU PRINCIPAL FIJO */
+
+.menu{
+	width: 100%;
+	height: 40px;
+	background-color: #343f4e;
+	position: fixed;
+	top: 0;
+	left:0;
+	display: inline-block;
+}
+
+.buscador.menu{
+    padding-top: 6px;
+    display: inline-block;
+    float: right;
+}
+.menu input{
+    
+    background-image: url(../img/lupa.png) ;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 95% center;
+    border:0; 
+    font-size:0.8em; 
+    text-align: left;
+    padding-left:5px; 
+    font-family: 'Open Sans', sans-serif;
+    color:#efefef; 
+    border:solid 1px #ccc; 
+    margin:0 0 20px; 
+    width:35%;
+    height: 20px;
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px;
+    -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2); 
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2); 
+    box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5); 
+    -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5); 
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+    float: right;
+    
+}
+
+.logo{
+	text-align: center;
+}
+
+.logo img{
+	width: 130px;
+}
+
+.favorites_m{
+	display: inline-block;
+	float: left;
+}
+
+.favorites_m img{
+	width: 21px;
+}
+
+.m_iconos{
+	float: left;
+	padding-left: 90px;
+	padding-top: 10px;
+}
+.home_m{
+	display: inline-block;
+	float: left;
+	padding-left: 22px;
+}
+
+.home_m img{
+	width: 21px;
+}
+
+.hashtag_m{
+	display: inline-block;
+	float: left;
+	padding-left: 15px;
+}
+
+.hashtag_m img{
+	width: 21px;
+}
+
+.submenu{
+	width: 100%;
+	height: 30px;
+	background-color: #e3e6ee;
+	position: fixed;
+	top:40px;
+	left: 0;
+}
+

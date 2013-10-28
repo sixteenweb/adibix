@@ -1,0 +1,182 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body{
+    background-color: #ecf0f1;
+}
+/*---------------COMIENZA MENU-----------*/
+
+
+#menu{
+    display: inline-block;
+    background: url(../img/logo_circle.png) no-repeat;
+    background-position: center,center;
+  	background-size: 52px 48px;
+    background-color:rgba(52,73,94,0.6);
+  	width: 100%;
+  	height: 50px;  
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline-block;
+   
+}
+
+.part1{
+    
+    height: 3.0em;
+    color:#9bc50b;
+    float: left;
+    margin-left: 0px;
+
+}
+
+.part2{
+   
+    height: 3.0em;
+    color:#9bc50b;
+  
+}
+
+.not{
+    position: absolute;
+    left: 3.50%;
+    top: 16px;
+}
+
+
+.home{
+    position: absolute;
+    left:22%;
+    top: 16px;
+}
+
+.search{
+    position: absolute;
+  right:22.5%;
+    top: 16px;
+}
+
+.camera{
+    position: absolute;
+    right: 3.50%;
+    top: 16px;
+}
+
+
+
+/*---------------TERMINA MENU-----------*/
+
+
+/*---------------COMIENZA USUARIO EXTERNO-----------*/
+
+.follow{
+    background-color: #f0f0f0;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dbdbdb; 
+}
+
+.avatar_externo{border: 2px solid #96a6a6;; margin-right: 10px;}
+.avatar_externo,.avatar_externo- img{
+float: right;
+width: 40px;
+height: 40px;
+-webkit-border-radius: 80px; /* Saf3+, Chrome */
+border-radius: 80px; /* Opera 10.5, IE 9 */
+/*-moz-border-radius: 30px; Disabled for FF1+ */
+}
+
+
+.foto_notificacion{
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 5px;
+
+}
+
+
+.foto_notificacion img{
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 1px 10px 30px rgba(50, 50, 50, 0.35);
+    -moz-box-shadow:    1px 10px 30px rgba(50, 50, 50, 0.35);
+    box-shadow:         1px 10px 30px rgba(50, 50, 50, 0.35);
+
+}
+
+
+.comillas{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.pp{
+    float: left;
+}
+
+
+.usuario2{
+     float: right;
+}
+
+.usuario_t1{
+       color: #225b95;
+      float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold; 
+
+}
+
+.usuario_t2{
+    color: #34495e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold; 
+
+}
+
+.star{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+
+.not1{
+    color: #202122;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+   
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.not_container{
+    padding-top: 25px;
+}
+
+.contenedor_notificacion{
+    margin:10px;
+    width: 100%;
+    
+}
+
+.pp_not2{
+    float: right;
+    padding-top: 5px;
+}

@@ -1,0 +1,570 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/*---------------COMIENZA MENU-----------*/
+
+
+.menu {
+    
+    background: url(../img/logo_circle.png), url(../img/fonfo_menu.jpg);
+    background-repeat: no-repeat,repeat;
+    background-position: center;
+    background-size: 52px 48px;
+    width: 100%;
+    height: 50px;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+}
+
+.uno {
+    float: left;
+    height: 50px;
+    width: 17.997533%;
+    text-align: center;
+}
+
+.uno img{
+    width: 27px;
+    height: 20px;
+    margin: 16px auto;
+}
+
+.dos {
+    float: left;
+    height: 50px;
+    width: 17.997533%;
+    text-align: center;
+    
+}
+
+.dos img {
+    width: 30px;
+    height: 20px;
+    margin: 16px auto 0;
+}
+
+.tres {
+    float: left;
+    height: 50px;
+    width: 18%;
+    margin: 0 0 0 28.112664%;
+    text-align: center;
+}
+
+.tres img {
+    width: 26px;
+    height: 20px;
+    margin: 16px auto 0;
+}
+
+.cuatro {
+    float: left;
+    height: 50px;
+    width: 17.997533%;
+    margin: 0 0 0 -0.10279605%;
+    text-align: center;
+}
+
+.cuatro img {
+    width: 27px;
+    height: 20px;
+    margin: 16px auto 0;
+}
+
+.activo{
+    background: url(../img/fondo_menu.png) repeat;
+}
+
+
+
+/*---------------TERMINA MENU-----------*/
+
+/*---------------COMIENZA PERFIL-----------*/
+
+#contenedor_informacion_perfil{
+    background: url(../img/portada.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 25em;
+}
+
+#contenedor_informacion_usuario{
+   /* Este contenedor mueve la imagen de perfil, nombre y usuario ej.margin-top: 20px; */
+}
+.imagen_perfil_usuario{
+  padding-top: 68px;
+  text-align: center;
+}
+
+.avatar{border: 2px solid rgba(199,201,201,0.6);; }
+.avatar,.avatar- img{
+width: 60px;
+height: 60px;
+-webkit-border-radius: 80px; /* Saf3+, Chrome */
+border-radius: 80px; /* Opera 10.5, IE 9 */
+/*-moz-border-radius: 30px; Disabled for FF1+ */
+}
+
+.informacion_usuario{
+  width: 100%;
+  text-align: center;
+}
+
+.nombre{
+  color: #ecf0f1;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+  font-weight: bold;
+}
+
+.usuario{
+  color: #e5e5e5;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 13px;
+ text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+}
+
+/*---Follow del perfil---*/
+
+#contenedor_informacion_follow{
+   /* Este contenedor mueve la información del follow ej.margin-top: 20px; */
+}
+
+.barra_follow{
+  width: 70%;
+  height: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  background: rgba(52,73,94,0.3);
+  border-radius: 15px 15px 0px 0px;
+-moz-border-radius: 15px 15px 0px 0px;
+-webkit-border-radius: 15px 15px 0px 0px;
+border: 0px solid #000000;
+-webkit-box-shadow: 1px 10px 30px rgba(50, 50, 50, 0.45);
+-moz-box-shadow:    1px 10px 30px rgba(50, 50, 50, 0.45);
+box-shadow:         1px 10px 30px rgba(50, 50, 50, 0.45);
+
+}
+
+.following_numero{
+  color: #ecf0f1;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  padding-top: 1px;
+
+}
+
+.following_texto{
+   color: #ecf0f1;
+  font-size: 11px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  position:  relative;
+  top: -3px;
+  padding-left: 5px;
+
+
+}
+
+.follower_numero{
+   color: #ecf0f1;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 1px;
+  padding-left: 5px;
+
+}
+
+.follower_texto{
+   color: #ecf0f1;
+  font-size: 11px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  position:  relative;
+  top: -3px;
+   padding-left: 10px;
+
+}
+
+.photo_numero{
+   color: #ecf0f1;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 1px;
+
+}
+
+.photo_texto{
+   color: #ecf0f1;
+  font-size: 11px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  position:  relative;
+  top: -3px;
+
+   padding-left: 5px;
+
+}
+
+.boton_follow{
+
+background: rgba(47,220,87,0.8);
+width: 22%;
+margin-top: 20px;
+margin-right: 39%;
+margin-left: 39%;
+height: 20px;
+text-align: center;
+font-size: 12px;
+font-weight: bold;
+color: #fff;
+padding-top: 5px;
+border-radius: 15px 15px 0px 0px;
+-moz-border-radius: 15px 15px 0px 0px;
+-webkit-border-radius: 15px 15px 0px 0px;
+border: 0px solid #000000;
+-webkit-box-shadow: 1px 10px 30px rgba(50, 50, 50, 0.25);
+-moz-box-shadow:    1px 10px 30px rgba(50, 50, 50, 0.25);
+box-shadow:         1px 10px 30px rgba(50, 50, 50, 0.25);
+border-right: solid 2px #b1b1b1;
+border-left: solid 2px #b1b1b1;
+border-top: solid 2px #b1b1b1;
+}
+
+
+
+/*---Terminan estilos Follow---*/
+
+
+#contenedor_biografia_usuario{
+   /* Este contenedor mueve la información de la biografía del usuario ej.margin-top: 20px; */
+}
+
+.biografia{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  top: 9px;
+  float: left;
+  position: relative;
+
+}
+
+.biografia p{
+  color: #fff;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding-right: 15px;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+
+}
+
+/*---Hashtag del Perfil---*/
+
+#barra_hashtag{
+    background: url(../img/hash_bg.png),url(../img/hash_bg2.png) ;
+    background-repeat: no-repeat, repeat;
+    width: 100%;
+    height: 40px;
+    margin-top: 110px;
+}
+
+.hashtag_categorias{
+    font-size: 12px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.h_c_activa{
+      font-size: 12px;
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-weight: bold;
+      color: #fff;
+}
+
+
+/*---Terminan estilos del hashtag del perfil---*/
+
+
+/*---Fotos del usuario del perfil---*/
+
+.contenedor_fotos_perfil{
+  margin-top: 2px;
+}
+
+.dos_fotos{
+  
+  display: block;
+}
+.dos_fotos img{
+  width: 98%;
+  margin-right: 1%;
+  margin-left: 1%;
+  height: 250px;
+  margin-top: 0px;
+  margin-bottom:-8px;
+}
+
+.una_foto{
+  display: block;
+}
+.una_foto img{
+  width: 99%;
+  margin-right:0.5%;
+  margin-left: 0.5%;
+  margin-top: 0px;
+  margin-bottom: -5px;
+  height: auto;
+
+}
+
+.mas_likes{
+  display: block;
+}
+.mas_likes img{
+  width: 99%;
+  margin-right:0.5%;
+  margin-left: 0.5%;
+  height: 500px;
+}
+
+
+/*---------------TERMINA PERFIL-----------*/
+
+
+/*---------------COMIENZA SEARCH-----------*/
+
+#contenedor_herramientas_buscador{
+margin-top: 120px;
+}
+
+.contenedor_titulo_search{
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.titulo_search{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 22px;
+  color: #808b8d;
+  font-weight: 500;
+}
+
+.iconos_buscador{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#buscador_hashtag{
+    float: right;
+    margin-right: -25px;
+    padding-top: 25px;
+}
+
+#buscador_hashtag img{
+    width: 35px;
+    height: 35px;
+}
+
+#buscador_usuario{
+text-align: center;
+}
+
+#buscador_usuario img{
+    width: 65px;
+    height: 65px;
+}
+
+#buscador_arroba{
+    float: left;
+    padding-top: 25px;
+    margin-left: -25px;
+}
+
+#buscador_arroba img{
+    width: 35px;
+    height: 35px;
+}
+
+/*---------------TERMINA SEARCH-----------*/
+
+.contenedor_fotos_feed{
+    margin-top: 53px;
+}
+
+/*---------------COMIENZA FOTO ABIERTA-----------*/
+.contenedor_principal_foto{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 65px;
+}
+
+.avatar_externo_foto{border: 2px solid #727272;; }
+.avatar_externo_foto,.avatar_externo_foto- img{
+width: 30px;
+height: 30px;
+-webkit-border-radius: 80px; /* Saf3+, Chrome */
+border-radius: 80px; /* Opera 10.5, IE 9 */
+/*-moz-border-radius: 30px; Disabled for FF1+ */
+}
+
+.imagen_perfil_externo{
+    float: right;
+    padding-right: 5px;
+    margin-right: 20px;
+   
+}
+
+.usuario_externo_foto{
+    width: 100%;
+    color: #34495e;
+    margin-left: -20px; 
+    padding-top: 10px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold; 
+}
+
+.foto_foto{
+  width: 100%;
+  position: relative;
+  top:5px;
+}
+
+.foto_foto img{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 400px;
+}
+
+.comentario_usuario_foto{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5px;
+  display: inline-block;
+}
+.comentario_icono_foto{
+	padding-top:5px;
+	display:inline-block;
+	font-size:0;
+}
+.comentario_icono_foto img{
+  width: 23px;
+  height: 15px;
+}
+
+.comentario_usuario_texto_foto{
+  
+  color: #000;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  margin-left:5px;
+  display:inline-block;
+}
+
+.l_s_foto{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5px;	
+}
+
+.diamante_info_foto{
+position:relative;
+top:15px;
+left:5px;
+}
+
+.diamante_info_foto img{
+	width:22px;
+	height:16px;
+}
+
+.share_info_foto{
+position:relative;
+top:15px;
+left:5px;
+}
+
+.share_info_foto img{
+	width:22px;
+	height:17px;
+}
+
+.numeros_ls_info_foto{
+	
+	font-size:14px;
+	font-weight:bold;
+	font-family: 'Open Sans', sans-serif;
+	text-align:left;
+	padding-left:13px;
+
+
+}
+
+.like_numero_foto{
+	position:relative;
+	top:-7px;
+	left:30px;
+}
+
+.share_numero_foto{
+	position:relative;
+	top:-7px;
+	left:30px;
+}
+
+.share_boton{
+	position: relative;
+	right: -100px;
+	top: -20px;
+}
+
+.share_boton img{
+	width: 34px;
+	height: 26px;
+}
+
+.like_boton{
+	position: relative;
+	right: -60px;
+	top:10px;
+}
+
+.like_boton img{
+	width: 34px;
+	height: 26px;
+}
+
+.like_numero_foto{
+	font-size:14px;
+	font-weight:bold;
+	font-family: 'Open Sans', sans-serif;
+	text-align:left;
+	
+}
+
+/*---------------TERMINA FOTO ABIERTA-----------*/
+
+.left{
+	margin-left:10px;
+}

@@ -1,0 +1,292 @@
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+
+body{
+	background: #131515;
+	width: 100%;
+	height: 100%;
+	font-family: Arial;
+	font-size: 16px;
+
+}
+
+
+
+#profile{
+
+	background: url(../img/lucero_portada.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 25em;
+  z-index: 0;
+}
+
+#pp_container{
+	width: 100%;
+	position: absolute;
+	top: 17em;
+}
+
+.fondo_imagen_portada{
+   background: rgba(27,188,157,0.7);
+   width: 100%;
+   height: 100%;
+   z-index: 100;
+}
+
+.pp img{
+
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   left: 50%;
+   top: 45%; 
+   margin-left: -50px;
+   margin-top: -175px;
+}
+
+.pp_name{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	position: absolute;
+	top: -1.3em;
+    color: #131515;
+    font-family: 'Abel', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.left_arrow img{
+
+   width: 27px;
+   height: 45px;
+   position: absolute;
+   left:1px;
+   top: 52%; 
+   margin-top: -150px;
+}
+
+.right_arrow img{
+
+   width: 27px;
+   height: 45px;
+   position: absolute;
+   right:1px;
+   top: 52%; 
+   margin-top: -150px;
+}
+
+.transparent {
+	zoom: 1;
+	filter: alpha(opacity=40);
+	opacity: 0.4;
+}
+
+.transparent_2 {
+	zoom: 1;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+
+.not_menu{
+	float: left;
+	margin-left: 1em;
+	margin-top: 0.8em;
+}
+
+.not_menu img{
+	width: 30px;
+	height: 20px;
+}
+.camera_menu{
+	float: right;
+	margin-right: 1em;
+	margin-top: 0.8em;
+}
+
+.camera_menu img{
+	width: 30px;
+	height: 20px;
+}
+
+.search_menu{
+	float: right;
+	margin-right: 1em;
+	margin-top: -12em;
+}
+
+.search_menu img{
+	display: none;
+	width: 26px;
+	height: 24px;
+}
+
+
+#hashtag{
+	background: url(../img/hash_bg.png),url(../img/hash_bg2.png) ;
+	background-repeat: no-repeat, repeat;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 22em;
+  overflow: auto;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: block;
+  width: 20%;
+  height: 50px;
+  float: left;
+}
+
+li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-family: 'Abel', sans-serif;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  
+}
+
+
+
+
+#menu{
+    display: inline-block;
+    background: url(../img/logo_circle.png) no-repeat;
+    background-position: center,center;
+    background-color:  #131515;
+	background-size: 47px 43px;
+	width: 100%;
+	height: 50px;
+   
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline-block;
+   
+}
+
+.part1{
+    
+    height: 3.0em;
+    color:#9bc50b;
+    float: left;
+    margin-left: 0px;
+
+}
+
+.part2{
+   
+    height: 3.0em;
+    color:#9bc50b;
+  
+}
+
+.not{
+    position: absolute;
+    left: 3.50%;
+    top: 16px;
+}
+
+
+.home{
+    position: absolute;
+    left:18.5%;
+    top: 16px;
+    border-bottom: solid 2px #1bbc9d;
+}
+
+.search{
+    position: absolute;
+  right:18.5%;
+    top: 16px;
+}
+
+.camera{
+    position: absolute;
+    right: 3.50%;
+    top: 16px;
+}
+
+
+
+.avatar-frame{border: 4px solid #fff; }
+.avatar-frame,.avatar-frame img{
+width: 120px;
+height: 120px;
+-webkit-border-radius: 80px; /* Saf3+, Chrome */
+border-radius: 80px; /* Opera 10.5, IE 9 */
+/*-moz-border-radius: 30px; Disabled for FF1+ */
+}
+
+
+
+/*PERFIL INFORMACION */
+.perfil_informacion{
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: -10em;
+
+}
+
+.info{
+  padding-top: 30px;
+  padding-bottom: 30px; 
+}
+
+.imagen_perfil{
+  float: right;
+  padding-right: 10px;
+}
+
+.nombre_usuario{
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  width: 100%;
+  text-shadow: 1px 3px 10px rgba(0, 0, 0, 1);
+  float: left;
+
+}
+
+.usuario{
+  color: #1bbc9d;
+  font-family: 16px;
+  font-weight: bold;
+  text-shadow: 1px 3px 10px rgba(0, 0, 0, 1);
+
+}
+
+.origen{
+  color: #fff;
+  text-shadow: 1px 3px 10px rgba(0, 0, 0, 1);
+}
+
+/*PERFIL INFORMACION */
+
+.follow{
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: -10em;
+
+}
