@@ -1,0 +1,160 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,700);
+
+
+body{
+	background-color: #f7f7f7;
+}
+
+a{outline:none;text-decoration: none;}
+
+ul{padding:0; margin:0; list-style-type: none;}
+
+/*MENU PRINCIPAL PAGINA */
+.menu-pagina{
+	width: 100%;
+	background-color: rgba(52,73,94, 1);
+	height: 40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.contenedor-menu{
+	
+	width: 968px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.menu-izquierda{
+	
+	width: 598px;
+	height: 40px;
+	float: left;
+}
+
+.menu-derecha{
+	
+	width: 370px;
+	height: 40px;
+	float: right;
+}
+
+.info-usuario-menu{
+	
+	width: 370px;
+	height: 40px;
+	float: left;
+}
+
+.contenedor-iconos-menu{
+	
+	width: 228px;
+	height: 40px;
+	float: right;
+}
+
+.pp-menu{
+	float: left;
+	padding-top: 1px;
+}
+
+.nombre-usuario-menu{
+	padding-left: 10px;
+	padding-top: 7px; 
+	float: left;
+	font-family: "Roboto";
+	font-size: 19px;
+	color: white;
+
+}
+
+.iconos-menu{
+	float: left;
+}
+
+.avatar-menu{border: 2px solid rgba(199,201,201,0.6);; }
+.avatar-menu,.avatar-menu- img{
+width: 34px;
+height: 34px;
+-webkit-border-radius: 180px; /* Saf3+, Chrome */
+border-radius: 180px; /* Opera 10.5, IE 9 */
+/*-moz-border-radius: 30px; Disabled for FF1+ */
+}
+
+.menu-pagina li{
+	float: left; 
+	padding-top: 5px;
+}
+
+
+.menu-pagina li a{
+ 
+}
+
+.menu-pagina li a img{
+	width: 26px;
+	display: inline-block;
+  	padding-right: 20px;
+}
+
+.menu-icono{
+	width: 28px;
+	padding-top: -2px;
+}
+
+.logo-menu{
+	float: right;
+	padding-right: 15px;
+}
+
+.logo-menu img{
+	width: 40px;
+}
+
+#search {
+  width: 100%;
+
+}
+
+#search_text {
+  width: 297px;
+  padding: 15px 0 15px 20px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  border: 0 none;
+  height: 40px;
+  margin-right: 0px;
+  color: white;
+  outline: none;
+  background: #25384a;
+  float: left;
+  box-sizing: border-box;
+  transition: all 0.15s;
+}
+::-webkit-input-placeholder {
+  color:white;
+}
+:-moz-placeholder {
+  color:white;
+}
+::-moz-placeholder {
+  color:white;
+}
+:-ms-input-placeholder {
+  color:white;
+}
+#search_text:focus{
+  background: rgb(64, 151, 119);
+}
+#search_button{
+  border: 0 none;
+  background: rgba(199,201,201,0.6) url(http://designmodo.com/demo/dropdown-menu-search/search.png) center no-repeat;
+  width: 60px;
+  float: left;
+  padding: 0;
+  text-align: center;
+  height: 40px;
+  cursor: pointer;
+}
