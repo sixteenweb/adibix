@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/columnas.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/fotos.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -28,7 +29,7 @@
                 <div class="menu-izquierda">
                     <div class="info-usuario-menu"><!-- Contiene la imagen y el nombre del usuario en el menu -->
                         <div class="pp-menu"><img class="avatar-menu" src="img/m10.jpg"></div><!-- imagen pp menu -->
-                        <div class="nombre-usuario-menu">Rihanna Oficial</div><!-- Nombre de usuario menu -->
+                        <div class="nombre-usuario-menu">Rihanna</div><!-- Nombre de usuario menu -->
                     </div><!-- termina info-usuario-menu -->
 
                     <div class="contenedor-iconos-menu">
@@ -47,7 +48,7 @@
                 <div class="menu-derecha">
                     <div id="search">
                         <form action="" method="get">
-                          <input type="text" name"search_text" id="search_text" placeholder="Search  friends, trends,  tags  etc." />
+                          <input type="text" name"search_text" id="search_text" placeholder="Search" />
                           <input type="button" name="search_button" id="search_button"></a>
                         </form>
                     </div>
@@ -236,15 +237,66 @@
                     </div><!-- Termina comentar-->
 
                 </div><!-- Termina contenedor-publicacion2-->
-
-                
-
-    
-             
+  
             </section><!-- Termina contenido-izquierda -->
 
             <section class="contenido-derecha-2"><!--seccion pequeña del contenido de la pagina(derecha) -->
                 
+                <section class="peril-derecha"><!--Contenedor principal del perfil en el lado izquierdo -->
+                   <div class="info-perfil-usuario">
+                        <div class="pp-perfil"> <img class="avatar-publicacion" src="img/m8.jpg"></div>
+                        <div class="nombre-usuario-perfil">Rihanna </div>
+                   </div>
+                  
+
+                   
+                   
+
+            </section>
+
+
+
+
+        <!-- SCRIPTS FOR THE PLUGIN -->
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/rotate-patch.js"></script>
+<script src="js/gridGallery.min.js"></script>
+
+<script>
+  
+    $('document').ready(function(){
+        //INITIALIZE THE PLUGIN
+        $('#grid').grid({
+            showFilterBar: false, //Show the navigation filter bar at the top 
+            imagesToLoad: 5, //The number of images to load when you click the load more button
+            imagesToLoadStart: 10, //The number of images to load when it first loads the grid
+            lazyLoad: false, //If you wish to load more images when it reach the bottom of the page
+            isFitWidth: true, //Nedded to be true if you wish to center the gallery to its container
+            horizontalSpaceBetweenThumbnails: 4, //The space between images horizontally
+            verticalSpaceBetweenThumbnails: 4, //The space between images vertically
+            columnWidth: 'auto', //The width of each columns, if you set it to 'auto' it will use the columns instead
+            columns: 2, //The number of columns when you set columnWidth to 'auto'
+            columnMinWidth: 160, //The minimum width of each columns when you set columnWidth to 'auto'
+            isAnimated: true, //If you wish the gallery to have animated effects when resizing the grid
+            caption: false, //Show the caption in mouse over
+            captionType: 'grid', // 'grid', 'grid-fade', 'classic' the type of caption effect
+            lightBox: true, //Do you want the lightbox?
+            lightboxKeyboardNav: true, //Keyboard navigation of the next and prev image
+            lightBoxSpeedFx: 500, //The speed of the lightbox effects
+            lightBoxZoomAnim: true, //Do you want the zoom effect of the images in the lightbox?
+            lightBoxText: true, //If you wish to show the text in the lightbox
+            lightboxPlayBtn: true, //Show the play button?
+            lightBoxAutoPlay: false, //The first time you open the lightbox it start playing the images
+            lightBoxPlayInterval: 4000, //The interval in the auto play mode 
+            lightBoxShowTimer: true, //If you wish to show the timer in auto play mode
+            lightBoxStopPlayOnClose: false, //Do you want pause the auto play mode when you close the lightbox?
+        });
+
+    });    
+       
+</script>
+                </section><!--Termina perfil-izquierda -->
+
             </section><!-- Termina contenido-derecha -->
 
         </div><!-- Termina el contenedor-principal -->
