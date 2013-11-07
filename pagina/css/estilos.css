@@ -1,11 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
 
 
 body{
-	background-image:url(../img/rcover.jpg);
+	background-image:url(../img/bg_registrer.jpg);
 	background-repeat: repeat;
-	background-size: cover;
+	;
+	
 	
 }
 
@@ -16,7 +18,7 @@ ul{padding:0; margin:0; list-style-type: none;}
 /*MENU PRINCIPAL PAGINA */
 .menu-pagina{
 	width: 100%;
-	background-color: #161821;
+	background-color: #33383c;
 	height: 40px;
 	position: fixed;
 	top: 0;
@@ -126,6 +128,9 @@ border-radius: 180px; /* Opera 10.5, IE 9 */
   width: 233px;
   float: left;
   padding-left: 5px;
+  padding-top: 6px;
+  height: 25px;
+
 }
 
 #search_text {
@@ -138,12 +143,15 @@ border-radius: 180px; /* Opera 10.5, IE 9 */
   border-right: none;
   border-top: none;
   border-bottom: none;
-  height: 40px;
+  height: 25px;
   margin-right: 0px;
   color: white;
   outline: none;
-  background: #161821;
+  background: #fefefe;
   float: left;
+   -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+           border-radius: 5px;
   box-sizing: border-box;
   transition: all 0.15s;
 }
@@ -167,13 +175,16 @@ border-radius: 180px; /* Opera 10.5, IE 9 */
   border-right: none;
   border-top: none;
   border-bottom: none;
-  background: #161821 url(http://designmodo.com/demo/dropdown-menu-search/search.png) center no-repeat;
+  background: red url(http://designmodo.com/demo/dropdown-menu-search/search.png) center no-repeat;
   width: 30px;
   float: left;
   padding: 0;
   text-align: center;
-  height: 40px;
+  height: 25px;
   cursor: pointer;
+   -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+           border-radius: 5px;
 }
 
 /*-----------------------MENU PRINCIPAL PAGINA------------------------- */
@@ -332,28 +343,45 @@ border-radius: 180px; /* Opera 10.5, IE 9 */
 .contenido-izquierda-2{
 	width: 600px;
 	float: left;
-	background-color: rgba(255,255,255, 0.15);
-	height:620px;
+	background-color: rgba(189, 195, 199,0.5);
+	height:1080px;
 	color: #000;
 	overflow-y:scroll; 
 	position: fixed;
 	top: 49px;
+	-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
 }
 
 .contenido-derecha-2{
 	width: 377px;
 	float: right;
 	height: 250px;
+	-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
 }
 
 .nombre-seccion-2{
 	width: 600px;
 	height: 30px;
-	border-bottom: 1px solid  #bcc2cb;
-	background-color: rgba(26, 188, 156,0.75);
+	border-bottom: 2px solid  #fff;
+	background-color: rgba(189, 195, 199,0.4);
 	position: fixed;
 	top: 49px;
-
+	-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
 
 }
 
@@ -385,12 +413,17 @@ border-radius: 180px; /* Opera 10.5, IE 9 */
 }
 
 .comentar{
-	background-color: #ebeef3;
 	width: 100%;
 	height: 40px;
 	margin-top: -4px;
 	display: inline-block;
 	vertical-align: top;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+border-bottom-right-radius: 5px;
 
 }
 
@@ -398,9 +431,12 @@ border-radius: 180px; /* Opera 10.5, IE 9 */
 	width: 9.5%;
 	float: left;
 	height: 40px;
-	background-color: #234880;
+	background-color: rgba(189, 195, 199,0.5);
 	text-align: center;
 	cursor: pointer;
+	-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-left-radius: 5px;
 
 }
 
@@ -417,11 +453,11 @@ border-radius: 180px; /* Opera 10.5, IE 9 */
 }
 
 .comentar-entrada {
-  width: 99.5%;
+  width: 100%;
   padding: 15px 0 15px 15px;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   border-right: none;
   border-left: 2px solid #fff;
   border-top: none;
@@ -430,7 +466,7 @@ border-radius: 180px; /* Opera 10.5, IE 9 */
   margin-right: 0px;
   color: white;
   outline: none;
-  background: #161821;
+  background-color: rgba(189, 195, 199,0.5);
   float: left;
   box-sizing: border-box;
   transition: all 0.15s;
@@ -448,17 +484,16 @@ border-radius: 180px; /* Opera 10.5, IE 9 */
   color:white;
 }
 .comentar-entrada :focus{
-  background: #161821;
+  background-color: rgba(189, 195, 199,0.9);;
 }
 
 .btn-share{
 	width: 19%;
 	float: left;
 	height: 40px;
-	background-color: #234880;
+	background-color: rgba(183, 191, 197,0.95);
 	text-align: center;
 	cursor: pointer;
-	
 }
 
 .btn-share img{
@@ -471,9 +506,12 @@ border-radius: 180px; /* Opera 10.5, IE 9 */
 	width: 19%;
 	float: right;
 	height: 40px;
-	background-color: #234880;
+	background-color: rgba(183, 191, 197,0.95);
 	text-align: center;
 	cursor: pointer;
+		-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+border-bottom-right-radius: 5px;
 	
 }
 
@@ -483,18 +521,25 @@ border-radius: 180px; /* Opera 10.5, IE 9 */
 }
 
 .comentario-usuario-publicacion2{
-	background-color: rgba(26, 188, 156,0.55);
+	background-color: rgba(183, 191, 197,0.85);
 	width: 100%;
 	height: 30px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
 }
 
 .comentario-usuario2{
 	font-size: 14px;
-	font-weight:300;
+	font-weight:600;
 	font-family: "Roboto";
-	text-align: center;
+	text-align: left;
 	color: white;
 	padding-top: 5px; 
+	padding-left: 15px;
 }
 .info-usuario2{
 	padding-left: 15px;
@@ -646,3 +691,6 @@ border-radius: 180px; /* Opera 10.5, IE 9 */
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
+
+
+
