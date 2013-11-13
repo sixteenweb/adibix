@@ -2,9 +2,9 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700);
 
 body{
-	background-image: url(../img/bg.jpg);
-	background-position: center center;
-	
+	background-image: url(../img/a5.jpg);
+	background-color: rgba(34,34,34,0.95);
+	background-size: percentage;
 	background-attachment: fixed;
 	font-family: "Roboto";
 	font-size: 16px;
@@ -14,7 +14,7 @@ body{
 /*MENU PRINCIPAL APP */
 
 .menu{
-	background-color: rgba(34,34,34,0.8);
+	background-color: rgba(34,34,34,0.95);
 	width: 100%;
 	height: 45px;
 	position: fixed;
@@ -22,15 +22,15 @@ body{
 	left: 0;
 }
 
-.logo{ float: right; padding-right: 7%; padding-top: 8px;}
-.logo img{ width: 29px;
+.logo{ float: left; padding-left: 4%; padding-top: 4px;}
+.logo img{ width: 36px;
 }
 
-.avatar-menu{border: 2px solid rgba(199,201,201,0.6);; }
-.avatar-menu,.avatar-menu img{ width: 32px; height: 32px;-webkit-border-radius: 80px; /* Saf3+, Chrome */border-radius: 80px; /* Opera 10.5, IE 9 *//*-moz-border-radius: 30px; Disabled for FF1+ */
+.avatar-menu{border: 1px solid rgba(199,201,201,0.6);; }
+.avatar-menu,.avatar-menu img{ width: 26px; height: 26px;-webkit-border-radius: 80px; /* Saf3+, Chrome */border-radius: 80px; /* Opera 10.5, IE 9 *//*-moz-border-radius: 30px; Disabled for FF1+ */
 }
 
-.pp-menu{display:inline-block; float:left; padding-left: 7%; padding-top: 4px;}
+.pp-menu{display:inline-block; float:right; padding-right: 7%; padding-top: 9px;}
 .pbm{margin-left: 7%}
 .home-menu{display:inline-block;  float: left; vertical-align: top; padding-top: 7px; padding-top: 12px;}
 .diamante-menu{display:inline-block;  float: left; vertical-align: top; padding-top: 7px; margin-left: 7%; padding-top: 12px;}
@@ -41,7 +41,7 @@ body{
 
 /* SECCION SEARCH */
 
-.buscador{ background-color: rgba(56,61,68, 0.6); width: 100%; margin-top: 120px; height: 40px; }
+.buscador{ background-color: rgba(56,61,68, 0.6); width: 100%; top:170px; left:0; height: 40px; position: fixed;}
 
 .buscador-iconos{width: 62%; float: left; ; height: 40px; }
 .icono-buscador{text-align: center; padding-top: 7px; border-left: 1px solid rgba(34,34,34, 0.6); }
@@ -57,10 +57,47 @@ body{
   color:#fff;
   font-size:14px;
   height: 38px;
-  padding-left: 5px;
+  text-align: 	center;	
   background-color: rgba(56,61,68, 0.8);
   overflow: hidden;
 }
 
-.resultado-buscador{ background-color: rgba(56,61,68, 0.6); width: 100%; height: 600px; margin-top: 8px;}
-.fotografias-buscador{width: 100%; padding-top: 8px;}
+.resultado-buscador{ background-color: rgba(56,61,68, 0.6); width: 100%;  height:450px; 
+					 position: fixed; top: 214px; left: 0; overflow: scroll; }
+
+.fotos-espacio{width: 100%; height: 1.1%;}
+.contenedor-fotos{width: 100%; margin-top: 0; padding-bottom: 10px; }
+.contenedor-fotos img{ border:3px solid rgba(56,61,68, 0.4);}
+
+.fotos-2c-izquierda{ width:50%;  float: left;}
+.fotos-2c-izquierda img{ width: 85%;  margin-left:10%; margin-right: 5%; margin-top:7%; height: 210px;
+-webkit-box-shadow: 1px 7px 10px rgba(50, 50, 50, 0.95);
+-moz-box-shadow:    1px 7px 10px rgba(50, 50, 50, 0.95);
+box-shadow:         1px 7px 10px rgba(50, 50, 50, 0.95);
+}
+
+.fotos-2c-derecha{ width: 50%;  float:right;}
+.fotos-2c-derecha img{ width: 85%;  margin-left:5%; margin-right: 10% ; margin-top:7%; height: 210px;
+-webkit-box-shadow: 1px 7px 10px rgba(50, 50, 50, 0.95);
+-moz-box-shadow:    1px 7px 10px rgba(50, 50, 50, 0.95);
+box-shadow:         1px 7px 10px rgba(50, 50, 50, 0.95);
+}
+
+
+.fotos-1c-ancho{ width: 100%; }
+.fotos-1c-ancho img{ width: 90%;  margin-left:5%; margin-right: 5% ; margin-top:7%; height: auto;
+-webkit-box-shadow: 1px 7px 10px rgba(50, 50, 50, 0.95);
+-moz-box-shadow:    1px 7px 10px rgba(50, 50, 50, 0.95);
+box-shadow:         1px 7px 10px rgba(50, 50, 50, 0.95);
+}
+
+
+.fotos-1c-maslikes{ width: 100%; }
+.fotos-1c-maslikes img{ width: 90%;  margin-left:5%; margin-right: 5% ; margin-top:7%; height: auto;
+-webkit-box-shadow: 1px 7px 10px rgba(50, 50, 50, 0.95);
+-moz-box-shadow:    1px 7px 10px rgba(50, 50, 50, 0.95);
+box-shadow:         1px 7px 10px rgba(50, 50, 50, 0.95);
+}
+
+.camara{width:100%; position: fixed; bottom: 0; margin: 0; text-align: center;}
+.camara img{width: 45px;}
