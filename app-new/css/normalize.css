@@ -76,6 +76,13 @@ html {
  * elements.
  */
 
+html,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
 
 /**
  * Address margins handled incorrectly in IE 6/7.
@@ -273,44 +280,6 @@ sub {
     bottom: -0.25em;
 }
 
-/* ==========================================================================
-   Lists
-   ========================================================================== */
-
-/**
- * Address margins set differently in IE 6/7.
- */
-
-dl,
-menu,
-ol,
-ul {
-    margin: 1em 0;
-}
-
-dd {
-    margin: 0 0 0 40px;
-}
-
-/**
- * Address paddings set differently in IE 6/7.
- */
-
-menu,
-ol,
-ul {
-    padding: 0 0 0 40px;
-}
-
-/**
- * Correct list images handled incorrectly in IE 7.
- */
-
-nav ul,
-nav ol {
-    list-style: none;
-    list-style-image: none;
-}
 
 /* ==========================================================================
    Embedded content
@@ -436,7 +405,7 @@ input[type="reset"],
 input[type="submit"] {
     -webkit-appearance: button; /* 2 */
     cursor: pointer; /* 3 */
-   
+    *overflow: visible;  /* 4 */
 }
 
 /**
