@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+body{
+	background-image: url(../img/v4.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+
+#logo{
+	width: 100%;
+	text-align: center;
+	margin-top: 20%;
+}
+
+#logo img{
+	width: 45px;
+}
+
+.botones{
+	width: 80%;
+	margin: 65% auto;
+	
+}
+
+.mail{
+	width: 100%;
+}
+
+ div.social-wrap button {
+    padding-right: 45px;
+    height: 30px;
+    background: none;
+    border: none;
+    display: block;
+    background-size: 35px 35px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    color: white;
+    font-family:"Merriweather Sans", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+    width: 100%;
+    text-shadow: rgba(0, 0, 0, .5) -1px -1px 0;
+}
+
+button#twitter {
+    border-color: #007aa6;
+    background-color: rgba(17,181,241,0.65);
+    background-image: url(https://twitter.com/images/resources/twitter-bird-white-on-blue.png);
+}
+button#googleplus {
+    border-color: #111;
+    background-color: rgba(18,161,154, 0.85);
+    text-shadow: #333 -1px -1px 0;
+    background-image:url(../img/arroba.png);
+}
+div.social-wrap button:active {
+    background-color: #222;
+}
+
+ul.sm-wrap {
+    list-style-type: none;
+    padding: 0px;
+}
+ul.sm-wrap li {
+    font-family:"Helvetica", sans-serif;
+    font-size: 11px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+ul.sm-wrap li#facebook-sm {
+    background-image: url(http://icons.iconarchive.com/icons/danleech/simple/512/facebook-icon.png);
+}
+ul.sm-wrap li#twitter-sm {
+    background-image:url(https://twitter.com/images/resources/twitter-bird-white-on-blue.png);
+}
+ul.sm-wrap li#gplus-sm {
+    background-image: url(../img/arroba.png);
+}
+
+ul.sm-wrap a{
+    text-decoration: none;    
+}
