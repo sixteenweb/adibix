@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700);
 
 body{
-	background-image: url(../img/a2.jpg);
+	background-image: url(../img/b7.jpg);
 	background-color: rgba(34,34,34,0.95);
 	background-size: percentage;
 	background-attachment: fixed;
@@ -123,6 +123,14 @@ box-shadow:         1px 7px 10px rgba(50, 50, 50, 0.95);
 	   position: fixed; top: 190px; left: 0; overflow: scroll; }
 
 
+.barra-foto-abierta{ width: 100%; top:50px; left:0; height: 40px; position: fixed;}
+.barra-foto-abierta-boton{background-color: rgba(56,61,68, 0.6); width: 33.3333333%; float: left; margin: 0; height: 40px; text-align: center; }
+.barra-foto-abierta-boton-activo{background-color: rgba(32,195,163,0.75); width: 33.3333333%; float: left; margin: 0; height: 40px; text-align: center;}
+.barra-foto-abierta-boton-activo img{width: 34px; padding-top: 3px;}
+.resultado-foto-abierta{ background-color: rgba(56,61,68, 0.6); width: 100%;  height:550px; 
+           position: fixed; top: 200px; left: 0; overflow-y: scroll; overflow-x:hidden; }
+
+
 .barra-feed{ width: 100%; top:155px; left:0; height: 40px; position: fixed;}
 .barra-feed-boton{background-color: rgba(56,61,68, 0.6); width: 33.3333333%; float: left; margin: 0; height: 40px; text-align: center; }
 .barra-feed-boton-activo{background-color: rgba(32,195,163,0.75); width: 33.3333333%; float: left; margin: 0; height: 40px; text-align: center;}
@@ -178,14 +186,14 @@ border-radius: 80px; /* Opera 10.5, IE 9 */
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-  font-weight:300;
+  font-weight:400;
 }
 
 .usuario{
   color: #20c3a3;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
  text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
 
@@ -197,7 +205,7 @@ border-radius: 80px; /* Opera 10.5, IE 9 */
 
 .barra_follow{
   width: 85%;
-  height: 30px;
+  height: 40px;
   margin-left: 7.5%;
   margin-right: 7.5%;
   background: rgba(56,61,68, 0.45) ;;
@@ -217,7 +225,7 @@ box-shadow:         1px 10px 30px rgba(50, 50, 50, 0.45);
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  padding-top: 1px;
+  padding-top: 5px;
 
 }
 
@@ -239,7 +247,7 @@ box-shadow:         1px 10px 30px rgba(50, 50, 50, 0.45);
   font-weight: 700;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  padding-top: 1px;
+  padding-top: 5px;
   padding-left: 5px;
 
 }
@@ -261,7 +269,7 @@ box-shadow:         1px 10px 30px rgba(50, 50, 50, 0.45);
   font-weight: 700;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  padding-top: 1px;
+  padding-top: 5px;
 
 }
 
@@ -272,18 +280,17 @@ box-shadow:         1px 10px 30px rgba(50, 50, 50, 0.45);
   font-family: 'Roboto', sans-serif;
   position:  relative;
   top: -3px;
-
-   padding-left: 5px;
+  padding-left: 5px;
 
 }
 
 .boton_follow{
 
 background: rgba(32,195,163,0.8);
-width: 22%;
+width: 50%;
 margin-top: 20px;
-margin-right: 39%;
-margin-left: 39%;
+margin-right: 25%;
+margin-left: 25%;
 height: 20px;
 text-align: center;
 font-size: 12px;
@@ -316,7 +323,7 @@ border-top: solid 2px #b1b1b1;
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
-  top: 9px;
+  top: -3px;
   float: left;
   position: relative;
 
@@ -487,7 +494,124 @@ border-top: solid 2px #b1b1b1;
 
 }
 
-.fotos img{
+.foto{
     width: 95%;
-    height: 200px;
+    height: 220px;
+}
+
+.foto-abierta-contenedor{
+  background-color: rgba(191,191,191,0.25);
+  width: 100%;
+  height: auto;
+  padding-bottom: 15px;
+  margin-top: 96px;
+  overflow: hidden;
+
+}
+
+.pp-foto-abierta{
+  text-align: center;
+  padding-top: 5px;
+}
+
+
+.contenedor-reloj{
+  text-align: center;
+  padding-top: 5px;
+}
+
+.pp-1{border: 2px solid rgba(32,195,163,1);; }
+.pp-1,.pp-1 img{ width: 32px; height: 32px;-webkit-border-radius: 80px; /* Saf3+, Chrome */border-radius: 80px; /* Opera 10.5, IE 9 *//*-moz-border-radius: 30px; Disabled for FF1+ */
+}
+
+.reloj{
+  width: 21px;
+}
+
+.reloj-numero{
+  display: block;
+  font-weight: 600;
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #727272;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.foto-abierta-1{
+  width: 100%;
+  padding-top: 5px;
+}
+
+.foto1{
+  width: 100%;
+  height: 400px;
+
+}
+
+.like-share-fa{
+  width: 100%;
+  margin-top: 7px;
+}
+
+.like-btn{
+  width: 60px;
+  height: 30px;
+  border: 3px solid rgba(255,255,255,0.50);
+  float: right;
+  text-align: center;
+  padding-top: 9px;
+  overflow: hidden;
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.share-btn{
+  width: 60px;
+  height: 30px;
+  border: 3px solid rgba(255,255,255,0.50);
+  float: right;
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 9px;
+  overflow: hidden;
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.like-img{
+  width: 22px;
+
+}
+
+.like-info{
+  display: block;
+  overflow: hidden;
+  margin-top: -4px;
+  margin-left: 2px;
+}
+
+.foto-abierta-info{
+  float: left;
+}
+
+.icono-like-info{
+  float: left;
+  padding-top: 3px;
+}
+
+.icono-like-info img{
+  width: 14px;
+}
+
+.numero-like-info{
+  float: left;
+  margin-left: 10px;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.65);
+  padding-top: 6px;
 }
